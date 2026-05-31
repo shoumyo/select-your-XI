@@ -1,7 +1,9 @@
 import React, { use } from 'react';
 import PlayerCard from '../Playercard/playerCard'; 
 
-const AvailablePlayers = ({ playersPromise,setBalance,balance,selectedPlayers,setSelectedPlayers,isSelected,setIsSelected }) => {
+const AvailablePlayers = ({ playersPromise,setBalance,balance,selectedPlayers,setSelectedPlayers,
+    removePlayer
+ }) => {
     const playerData = use(playersPromise);
     
     return (
@@ -11,7 +13,8 @@ const AvailablePlayers = ({ playersPromise,setBalance,balance,selectedPlayers,se
                     <PlayerCard key={player.player_name}
                      setBalance={setBalance} balance={balance} player={player} 
                      selectedPlayers={selectedPlayers} 
-                     setSelectedPlayers={setSelectedPlayers} />
+                     setSelectedPlayers={setSelectedPlayers}
+                     removePlayer={removePlayer} />
                 ))
             }
         </div>

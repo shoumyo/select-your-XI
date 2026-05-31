@@ -14,6 +14,14 @@ function App() {
   const[toggle,setToggle]=useState(true);
   const[balance,setBalance]=useState(100);
   const[selectedPlayers,setSelectedPlayers]=useState([]);
+
+  const removePlayer=(Players)=>{
+    const newBalnce=balance+Players.price;
+                        setBalance(newBalnce);
+                        setSelectedPlayers(
+                            selectedPlayers.filter(p => p.player_name !==
+                               Players.player_name));
+  }
   return (
     <>
     <NavBar balance={balance}></NavBar>
@@ -28,8 +36,11 @@ function App() {
     </div>
     {
       toggle===true?<Suspense fallback={<span className='loading loading-spinner loading-xl'></span>}>
-      <AvailablePlayers selectedPlayers={selectedPlayers} setSelectedPlayers={setSelectedPlayers} setBalance={setBalance} balance={balance} playersPromise={playersPromise}></AvailablePlayers>
-    </Suspense >:<SelectedPlayers selectedPlayers={selectedPlayers} setSelectedPlayers={setSelectedPlayers}></SelectedPlayers>
+      <AvailablePlayers
+      removePlayer={removePlayer}
+      selectedPlayers={selectedPlayers} setSelectedPlayers={setSelectedPlayers} setBalance={setBalance} balance={balance} playersPromise={playersPromise}></AvailablePlayers>
+    </Suspense >:<SelectedPlayers
+    removePlayer={removePlayer} selectedPlayers={selectedPlayers} setSelectedPlayers={setSelectedPlayers}></SelectedPlayers>
     }
     </>
   );

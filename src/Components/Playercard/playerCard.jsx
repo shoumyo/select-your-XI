@@ -2,7 +2,7 @@ import userImg from '../../assets/user1.png';
 import flagImg from '../../assets/report1.png';
 import { useState } from 'react';
 
-const PlayerCard = ({ player,setBalance,balance,selectedPlayers,setSelectedPlayers }) => {
+const PlayerCard = ({ player,setBalance,balance,selectedPlayers,setSelectedPlayers,removePlayer }) => {
 
     const[isSelected,setIsSelected]=useState(false);
 

@@ -1,7 +1,10 @@
 import React from 'react';
 import deleteImg from '../../assets/Frame.png'
 
-const selectedPlayersCard = ({players,selectedPlayers,setSelectedPlayers}) => {
+const selectedPlayersCard = ({players,removePlayer}) => {
+    const handleRemove=()=>{
+        removePlayer(players);
+    }
     return (
         <div className="border-2 border-gray-300 p-3 flex justify-between items-center m-2">
                 <div className='flex items-center'>
@@ -12,7 +15,7 @@ const selectedPlayersCard = ({players,selectedPlayers,setSelectedPlayers}) => {
                     </div>
                 </div>
                 <div>
-                    <img src={deleteImg} alt="" />
+                    <img onClick={handleRemove} src={deleteImg} alt="" />
                 </div>
             </div>
     );
