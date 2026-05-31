@@ -2,6 +2,7 @@ import NavBar from './Components/navBar/navBar';
 import AvailablePlayers from './Components/Available Players/availablePlayers';
 import SelectedPlayers from './Components/SelectedPlayers/selectedPlayers';
 import { Suspense, useState } from 'react';
+import { ToastContainer } from 'react-toastify';
 
 const fetchPalyers=async()=>{
   const res=await fetch("/players.json");
@@ -42,6 +43,7 @@ function App() {
     </Suspense >:<SelectedPlayers
     removePlayer={removePlayer} selectedPlayers={selectedPlayers} setSelectedPlayers={setSelectedPlayers}></SelectedPlayers>
     }
+    <ToastContainer></ToastContainer>
     </>
   );
 }
