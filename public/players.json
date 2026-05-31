@@ -1,0 +1,422 @@
+[
+  {
+    "player_image": "https://commons.wikimedia.org/wiki/Special:FilePath/Virat_Kohli_Batting_(cropped).jpg",
+    "player_name": "Virat Kohli",
+    "player_country": "India",
+    "player_playing_role": "Batsman",
+    "player_rating": 9.5,
+    "batting_style": "Right-hand bat",
+    "bowling_style": "Right-arm medium",
+    "price": 21.0
+  },
+  {
+    "player_image": "https://commons.wikimedia.org/wiki/Special:FilePath/Rishabh_Pant.jpg",
+    "player_name": "Rishabh Pant",
+    "player_country": "India",
+    "player_playing_role": "Wicketkeeper-Batsman",
+    "player_rating": 9.1,
+    "batting_style": "Left-hand bat",
+    "bowling_style": "None",
+    "price": 27.0
+  },
+  {
+    "player_image": "https://commons.wikimedia.org/wiki/Special:FilePath/Rohit_Gurunath_Sharma.jpg",
+    "player_name": "Rohit Sharma",
+    "player_country": "India",
+    "player_playing_role": "Batsman",
+    "player_rating": 9.3,
+    "batting_style": "Right-hand bat",
+    "bowling_style": "Right-arm offbreak",
+    "price": 16.3
+  },
+  {
+    "player_image": "https://commons.wikimedia.org/wiki/Special:FilePath/Jasprit_Bumrah_in_PMO_New_Delhi.jpg",
+    "player_name": "Jasprit Bumrah",
+    "player_country": "India",
+    "player_playing_role": "Bowler",
+    "player_rating": 9.6,
+    "batting_style": "Right-hand bat",
+    "bowling_style": "Right-arm fast",
+    "price": 18.0
+  },
+  {
+    "player_image": "https://commons.wikimedia.org/wiki/Special:FilePath/Pat_Cummins_The_Test_clip.png",
+    "player_name": "Pat Cummins",
+    "player_country": "Australia",
+    "player_playing_role": "Bowler",
+    "player_rating": 9.3,
+    "batting_style": "Right-hand bat",
+    "bowling_style": "Right-arm fast",
+    "price": 18.0
+  },
+  {
+    "player_image": "https://commons.wikimedia.org/wiki/Special:FilePath/Jos_Buttler_in_2023.jpg",
+    "player_name": "Jos Buttler",
+    "player_country": "England",
+    "player_playing_role": "Wicketkeeper-Batsman",
+    "player_rating": 9.0,
+    "batting_style": "Right-hand bat",
+    "bowling_style": "None",
+    "price": 15.75
+  },
+  {
+    "player_image": "https://commons.wikimedia.org/wiki/Special:FilePath/Shubman_Gill_2023.jpg",
+    "player_name": "Shubman Gill",
+    "player_country": "India",
+    "player_playing_role": "Batsman",
+    "player_rating": 8.9,
+    "batting_style": "Right-hand bat",
+    "bowling_style": "Right-arm offbreak",
+    "price": 16.5
+  },
+  {
+    "player_image": "https://commons.wikimedia.org/wiki/Special:FilePath/Mitchell_Starc_fielding_2021.jpg",
+    "player_name": "Mitchell Starc",
+    "player_country": "Australia",
+    "player_playing_role": "Bowler",
+    "player_rating": 9.2,
+    "batting_style": "Left-hand bat",
+    "bowling_style": "Left-arm fast",
+    "price": 11.75
+  },
+  {
+    "player_image": "https://commons.wikimedia.org/wiki/Special:FilePath/Hardik_Pandya_in_PMO_New_Delhi.jpg",
+    "player_name": "Hardik Pandya",
+    "player_country": "India",
+    "player_playing_role": "All-rounder",
+    "player_rating": 9.0,
+    "batting_style": "Right-hand bat",
+    "bowling_style": "Right-arm fast-medium",
+    "price": 16.35
+  },
+  {
+    "player_image": "https://commons.wikimedia.org/wiki/Special:FilePath/MS_Dhoni.jpg",
+    "player_name": "MS Dhoni",
+    "player_country": "India",
+    "player_playing_role": "Wicketkeeper-Batsman",
+    "player_rating": 9.0,
+    "batting_style": "Right-hand bat",
+    "bowling_style": "Right-arm medium",
+    "price": 4.0
+  },
+  {
+    "player_image": "https://commons.wikimedia.org/wiki/Special:FilePath/Ravindra_Jadeja_in_PMO_New_Delhi.jpg",
+    "player_name": "Ravindra Jadeja",
+    "player_country": "India",
+    "player_playing_role": "All-rounder",
+    "player_rating": 9.4,
+    "batting_style": "Left-hand bat",
+    "bowling_style": "Slow left-arm orthodox",
+    "price": 16.0
+  },
+  {
+    "player_image": "https://commons.wikimedia.org/wiki/Special:FilePath/Glenn_Maxwell.jpg",
+    "player_name": "Glenn Maxwell",
+    "player_country": "Australia",
+    "player_playing_role": "All-rounder",
+    "player_rating": 8.8,
+    "batting_style": "Right-hand bat",
+    "bowling_style": "Right-arm offbreak",
+    "price": 11.0
+  },
+  {
+    "player_image": "https://commons.wikimedia.org/wiki/Special:FilePath/Suryakumar_Yadav_in_PMO_New_Delhi.jpg",
+    "player_name": "Suryakumar Yadav",
+    "player_country": "India",
+    "player_playing_role": "Batsman",
+    "player_rating": 9.5,
+    "batting_style": "Right-hand bat",
+    "bowling_style": "Right-arm medium",
+    "price": 16.35
+  },
+  {
+    "player_image": "https://commons.wikimedia.org/wiki/Special:FilePath/K._L._Rahul_in_2018.jpg",
+    "player_name": "KL Rahul",
+    "player_country": "India",
+    "player_playing_role": "Wicketkeeper-Batsman",
+    "player_rating": 8.7,
+    "batting_style": "Right-hand bat",
+    "bowling_style": "None",
+    "price": 14.0
+  },
+  {
+    "player_image": "https://commons.wikimedia.org/wiki/Special:FilePath/Shreyas_Iyer.jpg",
+    "player_name": "Shreyas Iyer",
+    "player_country": "India",
+    "player_playing_role": "Batsman",
+    "player_rating": 8.6,
+    "batting_style": "Right-hand bat",
+    "bowling_style": "Right-arm legbreak",
+    "price": 26.75
+  },
+  {
+    "player_image": "https://commons.wikimedia.org/wiki/Special:FilePath/Mohammed_Shami.jpg",
+    "player_name": "Mohammed Shami",
+    "player_country": "India",
+    "player_playing_role": "Bowler",
+    "player_rating": 8.9,
+    "batting_style": "Right-hand bat",
+    "bowling_style": "Right-arm fast",
+    "price": 10.0
+  },
+  {
+    "player_image": "https://commons.wikimedia.org/wiki/Special:FilePath/Mohammed_Siraj_in_PMO_New_Delhi.jpg",
+    "player_name": "Mohammed Siraj",
+    "player_country": "India",
+    "player_playing_role": "Bowler",
+    "player_rating": 8.8,
+    "batting_style": "Right-hand bat",
+    "bowling_style": "Right-arm fast",
+    "price": 12.25
+  },
+  {
+    "player_image": "https://commons.wikimedia.org/wiki/Special:FilePath/Yuzvendra_Chahal_in_PMO_New_Delhi.jpg",
+    "player_name": "Yuzvendra Chahal",
+    "player_country": "India",
+    "player_playing_role": "Bowler",
+    "player_rating": 8.8,
+    "batting_style": "Right-hand bat",
+    "bowling_style": "Right-arm legbreak",
+    "price": 18.0
+  },
+  {
+    "player_image": "https://commons.wikimedia.org/wiki/Special:FilePath/Kuldeep_Yadav_in_PMO_New_Delhi.jpg",
+    "player_name": "Kuldeep Yadav",
+    "player_country": "India",
+    "player_playing_role": "Bowler",
+    "player_rating": 9.0,
+    "batting_style": "Left-hand bat",
+    "bowling_style": "Slow left-arm chinaman",
+    "price": 13.25
+  },
+  {
+    "player_image": "https://commons.wikimedia.org/wiki/Special:FilePath/Axar_Patel_in_PMO_New_Delhi.jpg",
+    "player_name": "Axar Patel",
+    "player_country": "India",
+    "player_playing_role": "All-rounder",
+    "player_rating": 8.9,
+    "batting_style": "Left-hand bat",
+    "bowling_style": "Slow left-arm orthodox",
+    "price": 16.5
+  },
+  {
+    "player_image": "https://commons.wikimedia.org/wiki/Special:FilePath/Rinku_Singh.jpg",
+    "player_name": "Rinku Singh",
+    "player_country": "India",
+    "player_playing_role": "Batsman",
+    "player_rating": 8.7,
+    "batting_style": "Left-hand bat",
+    "bowling_style": "Right-arm offbreak",
+    "price": 13.0
+  },
+  {
+    "player_image": "https://commons.wikimedia.org/wiki/Special:FilePath/Arshdeep_Singh_in_PMO_New_Delhi.jpg",
+    "player_name": "Arshdeep Singh",
+    "player_country": "India",
+    "player_playing_role": "Bowler",
+    "player_rating": 8.8,
+    "batting_style": "Left-hand bat",
+    "bowling_style": "Left-arm fast-medium",
+    "price": 18.0
+  },
+  {
+    "player_image": "https://commons.wikimedia.org/wiki/Special:FilePath/Ishan_Kishan.jpg",
+    "player_name": "Ishan Kishan",
+    "player_country": "India",
+    "player_playing_role": "Wicketkeeper-Batsman",
+    "player_rating": 8.5,
+    "batting_style": "Left-hand bat",
+    "bowling_style": "None",
+    "price": 11.25
+  },
+  {
+    "player_image": "https://commons.wikimedia.org/wiki/Special:FilePath/Sanju_Samson_in_PMO_New_Delhi.jpg",
+    "player_name": "Sanju Samson",
+    "player_country": "India",
+    "player_playing_role": "Wicketkeeper-Batsman",
+    "player_rating": 8.9,
+    "batting_style": "Right-hand bat",
+    "bowling_style": "None",
+    "price": 18.0
+  },
+  {
+    "player_image": "https://commons.wikimedia.org/wiki/Special:FilePath/Yashasvi_Jaiswal_in_PMO_New_Delhi.jpg",
+    "player_name": "Yashasvi Jaiswal",
+    "player_country": "India",
+    "player_playing_role": "Batsman",
+    "player_rating": 9.1,
+    "batting_style": "Left-hand bat",
+    "bowling_style": "Right-arm legbreak",
+    "price": 18.0
+  },
+  {
+    "player_image": "https://commons.wikimedia.org/wiki/Special:FilePath/Ruturaj_Gaikwad.jpg",
+    "player_name": "Ruturaj Gaikwad",
+    "player_country": "India",
+    "player_playing_role": "Batsman",
+    "player_rating": 8.8,
+    "batting_style": "Right-hand bat",
+    "bowling_style": "Right-arm offbreak",
+    "price": 18.0
+  },
+  {
+    "player_image": "https://commons.wikimedia.org/wiki/Special:FilePath/Trent_Boult.jpg",
+    "player_name": "Trent Boult",
+    "player_country": "New Zealand",
+    "player_playing_role": "Bowler",
+    "player_rating": 9.2,
+    "batting_style": "Right-hand bat",
+    "bowling_style": "Left-arm fast-medium",
+    "price": 12.5
+  },
+  {
+    "player_image": "https://commons.wikimedia.org/wiki/Special:FilePath/Kane_Williamson_in_2019.jpg",
+    "player_name": "Kane Williamson",
+    "player_country": "New Zealand",
+    "player_playing_role": "Batsman",
+    "player_rating": 8.9,
+    "batting_style": "Right-hand bat",
+    "bowling_style": "Right-arm offbreak",
+    "price": 2.0
+  },
+  {
+    "player_image": "https://commons.wikimedia.org/wiki/Special:FilePath/Rashid_Khan_2019.jpg",
+    "player_name": "Rashid Khan",
+    "player_country": "Afghanistan",
+    "player_playing_role": "Bowler",
+    "player_rating": 9.4,
+    "batting_style": "Right-hand bat",
+    "bowling_style": "Right-arm legbreak",
+    "price": 18.0
+  },
+  {
+    "player_image": "https://commons.wikimedia.org/wiki/Special:FilePath/David_Warner_The_Test_clip.png",
+    "player_name": "David Warner",
+    "player_country": "Australia",
+    "player_playing_role": "Batsman",
+    "player_rating": 8.8,
+    "batting_style": "Left-hand bat",
+    "bowling_style": "Right-arm legbreak",
+    "price": 6.25
+  },
+  {
+    "player_image": "https://commons.wikimedia.org/wiki/Special:FilePath/Heinrich_Klaasen.jpg",
+    "player_name": "Heinrich Klaasen",
+    "player_country": "South Africa",
+    "player_playing_role": "Wicketkeeper-Batsman",
+    "player_rating": 9.3,
+    "batting_style": "Right-hand bat",
+    "bowling_style": "Right-arm offbreak",
+    "price": 23.0
+  },
+  {
+    "player_image": "https://commons.wikimedia.org/wiki/Special:FilePath/Quinton_de_Kock.jpg",
+    "player_name": "Quinton de Kock",
+    "player_country": "South Africa",
+    "player_playing_role": "Wicketkeeper-Batsman",
+    "player_rating": 8.7,
+    "batting_style": "Left-hand bat",
+    "bowling_style": "None",
+    "price": 3.6
+  },
+  {
+    "player_image": "https://commons.wikimedia.org/wiki/Special:FilePath/Kagiso_Rabada.jpg",
+    "player_name": "Kagiso Rabada",
+    "player_country": "South Africa",
+    "player_playing_role": "Bowler",
+    "player_rating": 9.1,
+    "batting_style": "Left-hand bat",
+    "bowling_style": "Right-arm fast",
+    "price": 10.75
+  },
+  {
+    "player_image": "https://commons.wikimedia.org/wiki/Special:FilePath/Faf_du_Plessis_2019.jpg",
+    "player_name": "Faf du Plessis",
+    "player_country": "South Africa",
+    "player_playing_role": "Batsman",
+    "player_rating": 8.8,
+    "batting_style": "Right-hand bat",
+    "bowling_style": "Right-arm legbreak",
+    "price": 7.0
+  },
+  {
+    "player_image": "https://commons.wikimedia.org/wiki/Special:FilePath/Sam_Curran.jpg",
+    "player_name": "Sam Curran",
+    "player_country": "England",
+    "player_playing_role": "All-rounder",
+    "player_rating": 8.7,
+    "batting_style": "Left-hand bat",
+    "bowling_style": "Left-arm fast-medium",
+    "price": 18.5
+  },
+  {
+    "player_image": "https://commons.wikimedia.org/wiki/Special:FilePath/Liam_Livingstone.jpg",
+    "player_name": "Liam Livingstone",
+    "player_country": "England",
+    "player_playing_role": "All-rounder",
+    "player_rating": 8.6,
+    "batting_style": "Right-hand bat",
+    "bowling_style": "Right-arm legbreak",
+    "price": 11.5
+  },
+  {
+    "player_image": "https://commons.wikimedia.org/wiki/Special:FilePath/Sunil_Narine.jpg",
+    "player_name": "Sunil Narine",
+    "player_country": "West Indies",
+    "player_playing_role": "All-rounder",
+    "player_rating": 9.2,
+    "batting_style": "Left-hand bat",
+    "bowling_style": "Right-arm offbreak",
+    "price": 12.0
+  },
+  {
+    "player_image": "https://commons.wikimedia.org/wiki/Special:FilePath/Andre_Russell.jpg",
+    "player_name": "Andre Russell",
+    "player_country": "West Indies",
+    "player_playing_role": "All-rounder",
+    "player_rating": 9.1,
+    "batting_style": "Right-hand bat",
+    "bowling_style": "Right-arm fast",
+    "price": 12.0
+  },
+  {
+    "player_image": "https://commons.wikimedia.org/wiki/Special:FilePath/Nicholas_Pooran.jpg",
+    "player_name": "Nicholas Pooran",
+    "player_country": "West Indies",
+    "player_playing_role": "Wicketkeeper-Batsman",
+    "player_rating": 9.2,
+    "batting_style": "Left-hand bat",
+    "bowling_style": "None",
+    "price": 21.0
+  },
+  {
+    "player_image": "https://commons.wikimedia.org/wiki/Special:FilePath/Marcus_Stoinis.jpg",
+    "player_name": "Marcus Stoinis",
+    "player_country": "Australia",
+    "player_playing_role": "All-rounder",
+    "player_rating": 8.6,
+    "batting_style": "Right-hand bat",
+    "bowling_style": "Right-arm medium",
+    "price": 11.0
+  },
+  {
+    "player_image": "https://commons.wikimedia.org/wiki/Special:FilePath/Cameron_Green_in_2023.jpg",
+    "player_name": "Cameron Green",
+    "player_country": "Australia",
+    "player_playing_role": "All-rounder",
+    "player_rating": 8.7,
+    "batting_style": "Right-hand bat",
+    "bowling_style": "Right-arm fast-medium",
+    "price": 17.5
+  },
+  {
+    "player_image": "https://commons.wikimedia.org/wiki/Special:FilePath/Matheesha_Pathirana.jpg",
+    "player_name": "Matheesha Pathirana",
+    "player_country": "Sri Lanka",
+    "player_playing_role": "Bowler",
+    "player_rating": 8.9,
+    "batting_style": "Right-hand bat",
+    "bowling_style": "Right-arm fast",
+    "price": 13.0
+  }
+]
