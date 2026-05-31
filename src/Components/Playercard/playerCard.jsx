@@ -8,6 +8,10 @@ const PlayerCard = ({ player,setBalance,balance,selectedPlayers,setSelectedPlaye
     const[isSelected,setIsSelected]=useState(false);
 
     const handleClick=()=>{
+        if(selectedPlayers.length===11){
+            toast("Maximum player added");
+            return;
+        }
         if(balance>player.price){
                 if(isSelected){
                       const newBalnce=balance+player.price;
