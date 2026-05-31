@@ -4,21 +4,22 @@ import { useState } from 'react';
 
 const PlayerCard = ({ player,setBalance,balance,selectedPlayers,setSelectedPlayers }) => {
 
-    const[isSelected,setIsSelectrd]=useState(false);
+    const[isSelected,setIsSelected]=useState(false);
 
     const handleClick=()=>{
         if(balance>player.price){
-             isSelected===true?setIsSelectrd(false):setIsSelectrd(true);
                 if(isSelected){
                       const newBalnce=balance+player.price;
                         setBalance(newBalnce);
                         setSelectedPlayers(
                             selectedPlayers.filter(p => p.player_name !== player.player_name));
+                            setIsSelected(false);
                     }
                 else{
                     const newBalnce=balance-player.price;
                     setBalance(newBalnce);
                     setSelectedPlayers([...selectedPlayers,player]);
+                    setIsSelected(true);
                 }
             }
         else{

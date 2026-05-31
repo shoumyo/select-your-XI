@@ -1,7 +1,7 @@
 import React, { use } from 'react';
 import PlayerCard from '../Playercard/playerCard'; 
 
-const AvailablePlayers = ({ playersPromise,setBalance,balance,selectedPlayers,setSelectedPlayers }) => {
+const AvailablePlayers = ({ playersPromise,setBalance,balance,selectedPlayers,setSelectedPlayers,isSelected,setIsSelected }) => {
     const playerData = use(playersPromise);
     
     return (
